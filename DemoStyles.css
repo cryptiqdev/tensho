@@ -1,0 +1,114 @@
+﻿html, body, Form {
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+body {
+    background-color: white;
+    color: #444;
+    font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, Tahoma;
+    font-size: medium;
+    text-align: left;
+    vertical-align: top;
+}
+
+p {
+    line-height: 25pt;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    vertical-align: top;
+    max-width: 800px;
+}
+
+a {
+    color: #56af31;
+    text-align: right;
+}
+
+    a:hover {
+        color: #ff8400;
+    }
+
+.clsMainTable {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.clsTextBox {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999;
+    font-family: "Segoe UI", "WeblySleekUISemilight", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-size: medium;
+    color: #444;
+    text-align: center;
+}
+
+.clsOrangeButton {
+    border-style: none;
+    border-width: 0px;
+    font-family: "Segoe UI", "WeblySleekUISemilight", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-size: medium;
+    color: white;
+    background-color: #bf0000;
+    height: 30px;
+}
+
+    .clsOrangeButton:hover {
+        background-color: #56af31;
+        color: White;
+    }
+
+
+.clsButton {
+    border-style: none;
+    border-width: 0px;
+    font-family: "Segoe UI", "WeblySleekUISemilight", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-size: medium;
+    color: white;
+    background-color: #0f9ddc;
+    height: 30px;
+}
+
+    .clsButton:hover {
+        background-color: #56af31;
+        color: White;
+    }
+
+.clsControl {
+    border: 1px solid #bcbcbc;
+    font-family: "Segoe UI", "WeblySleekUISemilight", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    color: #444;
+    height: 25px;
+}
+
+.clsPageTitle {
+    float: none;
+    background-color: transparent;
+    color: #1a1a1a;
+    font-family: Roboto, 'Segoe WP','Segoe UI',Arial,Sans-Serif;
+    font-size: x-large; /*48px;*/
+    font-style: normal;
+    font-variant: normal;
+    /*font-weight: bold;*/
+    letter-spacing: normal;
+    line-height: 57.12px;
+    -ms-text-size-adjust: auto;
+    orphans: 2;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+    -webkit-text-stroke-width: 0px;
+    white-space: nowrap;
+    word-spacing: 0px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+}
